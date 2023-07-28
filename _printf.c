@@ -2,11 +2,6 @@
 
 void print_buffer(char buffer[], int *buff_ind);
 
-/**
- * _printf - Printf f
- * @format: format.
- * Return: Printed chars.
- */
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
@@ -52,11 +47,6 @@ int _printf(const char *format, ...)
 	return (printed_chars);
 }
 
-/**
- * print_buffer - Prints 
- * @buffer: Array of chars
- * @buff_ind: .
- */
 void print_buffer(char buffer[], int *buff_ind)
 {
 	if (*buff_ind > 0)
